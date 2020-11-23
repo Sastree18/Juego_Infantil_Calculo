@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinar_en_ruinas_horizontal"
+    tools:context=".AventuraNivel4Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/eagle_lake"
+        android:text="Nombre:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/eagle_lake"
+        android:layout_toEndOf="@+id/textView"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/eagle_lake"
+        android:text="Puntos:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/eagle_lake"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="0"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvVidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNombre"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/eagle_lake"
+        android:text="Corazones:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView_vidas"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="79dp"
+        app:srcCompat="@drawable/tres_vidas" />
+
+    <ImageView
+        android:id="@+id/imageViewNum1"
+        android:layout_width="190dp"
+        android:layout_height="290dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="127dp"
+        app:srcCompat="@drawable/cero" />
+
+    <ImageView
+        android:id="@+id/imageViewSigno"
+        android:layout_width="174dp"
+        android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="202dp"
+        app:srcCompat="@drawable/multiplicacion" />
+
+    <ImageView
+        android:id="@+id/imageViewNum2"
+        android:layout_width="190dp"
+        android:layout_height="290dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="454dp"
+        android:layout_marginTop="127dp"
+        app:srcCompat="@drawable/cero" />
+
+    <EditText
+        android:id="@+id/etRespuesta"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="361dp"
+        android:layout_marginBottom="316dp"
+        android:ems="10"
+        android:fontFamily="@font/eagle_lake"
+        android:gravity="center"
+        android:hint="Respuesta"
+        android:inputType="number"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="529dp"
+        android:layout_marginBottom="318dp"
+        android:background="@android:color/holo_orange_dark"
+        android:fontFamily="@font/eagle_lake"
+        android:onClick="BotonConfirmar"
+        android:text="CONFIRMAR"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+</RelativeLayout>

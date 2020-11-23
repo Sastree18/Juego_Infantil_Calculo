@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.calculadorainfantil">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".AventuraFinalActivity"></activity>
+        <activity android:name=".NivelDificilActivity" />
+        <activity android:name=".NivelNormalActivity" />
+        <activity android:name=".NivelFacilActivity" />
+        <activity android:name=".AventuraNivel7Activity" />
+        <activity android:name=".AventuraNivel6Activity" />
+        <activity android:name=".AventuraNivel5Activity" />
+        <activity android:name=".AventuraNivel4Activity" />
+        <activity android:name=".AventuraNivel3Activity" />
+        <activity android:name=".AventuraNivel2Activity" />
+        <activity android:name=".JugarActivity" />
+        <activity android:name=".AventuraNivel1Activity" />
+        <activity android:name=".PuntuacionesActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".NivelesActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
